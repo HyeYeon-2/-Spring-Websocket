@@ -1,4 +1,6 @@
-<h1> -Spring-Websocket </h1>
+ <div align=center>
+  <h1> -Spring-Websocket </h1>
+ </div>
 
 <h5>* bootstrap Template</h5>
 
