@@ -10,7 +10,15 @@
 <link rel="stylesheet" href="https://bootswatch.com/_vendor/prismjs/themes/prism-okaidia.css">
 <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
 <link rel="stylesheet" href="/mycode/resources/css/chat.css">
-<link rel="stylesheet" href="/mycode/resources/css/style.css">
+<style>
+#wrap{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+</style>
+
 </head>
 <body>
 
@@ -59,12 +67,8 @@
 
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/sockjs/latest/sockjs.min.js"></script>
-	<script src="/mycode/resources/js/chat.js"></script>
 	<script>
 
-		function chat() {
-
-		}
 		var webSocket = new WebSocket('ws://' + location.host
 				+ '/mycode/websocket');
 
