@@ -14,7 +14,7 @@
               <scope>provided</scope>
           </dependency>
           
-         WesocketSession 
+         + WesocketSession 
              <!-- https://mvnrepository.com/artifact/javax.websocket/javax.websocket-api -->
         <dependency>
             <groupId>javax.websocket</groupId>
