@@ -5,7 +5,7 @@
 <h5>* bootstrap Template</h5>
 
 ## pom.xml
-         Session
+         Session + WebSocketController
         <!-- https://mvnrepository.com/artifact/javax.websocket/javax.websocket-api -->
 		  <dependency>
 		      <groupId>javax.websocket</groupId>
@@ -14,7 +14,7 @@
 		      <scope>provided</scope>
 		  </dependency>
           
-         + WesocketSession 
+         + WesocketSession + WebsocketHandler + WebsocketConfig + servlet-context
          <!-- https://mvnrepository.com/artifact/javax.websocket/javax.websocket-api -->
 		<dependency>
 		    <groupId>javax.websocket</groupId>
