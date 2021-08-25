@@ -84,7 +84,7 @@ public class WebSocketController {
 				}
 			} else {
 				try {
-					// 나
+					// 나   
 					sessionMap.get(key).getBasicRemote().sendText(message);
 				} catch (IOException e) {
 					e.printStackTrace();
